@@ -1,0 +1,125 @@
+body{
+    font-family:"Hiragino Kaku Gothic PorN","メイリオ",sans-serif;
+}
+
+.logo{
+    width:300px;
+    margin-left:-30px;
+}
+
+header{
+    width:100%;
+    height:60px;
+    background-color:black;
+}
+
+header ul{
+    list-style-type:none;
+    line-height:60px;
+}
+
+header ul li{
+    float:left;
+    padding-right:50px;
+    padding-left:30px;
+    color:white;
+}
+
+h1{
+    border-left:5px solid black;
+    border-bottom:3px solid gray;
+    letter-spacing:0.1em;
+}
+
+form{
+    margin:0 auto;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    width:100%;
+    margin-bottom:30px;
+}
+
+form div{
+    padding:5px;
+}
+
+form h3{
+    border-left:5px solid red;
+    margin-left:10px;
+    padding-left:10px;
+    margin-top:-5px;
+}
+
+.text,textarea{
+    border:1px solid #dfdfdf;
+    color:#999;
+    background:#fff;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color:#888;
+    border-radius:5px;
+    border-bottom:2px solid #333333;
+    margin-bottom:10px;
+}
+
+.left .kiji h3{
+    border-bottom:3px solid #ebebeb;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.kiji{
+    margin:0 auto;
+    border:3px #ebebeb solid;
+    background-color:#fbfbfb;
+    margin-bottom:10px;
+}
+
+.contents{
+    margin-left:10px;
+}
+
+.handlename{
+    font-size:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+
+.left{
+    float:left;
+    width:70%;
+    margin-right:30px;
+}
+
+.right{
+    float:right;
+    width:25%;
+}
+
+.right ul{
+    list-style-type:none;
+    margin-left:-10px;
+    margin-top:-10px;
+    line-height:30px;
+}
+
+.right h3{
+    border-bottom:2px dashed black;
+}
+
+
+footer{
+    clear:left;
+    height:60px;
+    width:100%;
+    background-color:black;
+    text-align:center;
+    color:white;
+    line-height:60px;
+    margin:0;
+}
